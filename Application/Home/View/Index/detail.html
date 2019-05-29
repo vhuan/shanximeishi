@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>美食详情</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="__PUBLIC__/home/other/images/favicon.ico">
+     <link rel="shortcut icon" href="__PUBLIC__/home/other/images/favicon.ico" />
+     <link rel="stylesheet" href="__PUBLIC__/home/other/css/style.css">
+     <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/other/css/style1.css">
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/other/css/add.css">
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/other/bootstrap/css/bootstrap.min.css">
+     <script src="__PUBLIC__/home/other/js/jquery.js"></script>
+     <script src="__PUBLIC__/home/other/js/jquery-migrate-1.1.1.js"></script>
+     <script src="__PUBLIC__/home/other/js/superfish.js"></script>
+     <script src="__PUBLIC__/home/other/js/jquery.easing.1.3.js"></script>
+     <script src="__PUBLIC__/home/other/js/sForm.js"></script>
+     <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/other/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/other/css/index.css">
+     <script type="text/javascript" src="__PUBLIC__/home/other/js/jquery-min.js"></script>
+     <script type="text/javascript" src="__PUBLIC__/home/other/js/index.js"></script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+     </head>
+     <body>
+       <div class="main">
+<!--==============================header=================================-->
+<include file="common/head"/>
+<!--=======content================================-->
+
+<div class="content">
+  <div class="container_12">
+    <div class="grid_7">
+      <h2 class="head2">{$data.name}</h2>
+      <div class="news">
+        <h4>{$data.title}</h4>
+      <div class="news mb0">
+         <?php echo htmlspecialchars_decode($data['content']);?>
+         
+    </div>
+  
+    <div class="clear"></div>
+    <iframe   src="http://localhost/carshop1/index.php/Home/index/pinglun" width="1000" height="500"   frameborder="1/0"></iframe>
+  </div>
+
+</div>
+<!--==============================footer=================================-->
+<div class="clear"></div>
+
+</body>
+</html>

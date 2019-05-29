@@ -1,0 +1,618 @@
+/* .search {
+  background: url(_PUBLIC__/home/other/images/img/banner2.jpg) repeat;
+  background-size: contain;
+  width: 1000px;
+  height: 70px;
+  transform: translateX(50%);
+  left: -37%;
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  flex-direction: column;
+} */
+.searchform{
+  width: 300px;
+  height: 50px;
+}
+.search-box {
+  width: 300px !important;
+  height: 50px;
+  line-height: 50px；
+}
+
+.search-box .search_input {
+  padding-left: 5px;
+  width: 240px;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  outline-style: none;
+}
+
+ .search-box .search_button {
+  display: inline-block;
+  border: none;
+  margin-left: -5px;
+  width: 60px;
+  height: 40px;
+  background: #dd7a61;
+  cursor: pointer;
+  line-height: 30px;
+  box-sizing: border-box;
+  outline-style: none;
+  border-radius: 0px 3px 3px 0px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.search-box .search_button:hover {
+  background: #709f00;
+  color: #fff;
+}
+
+/*搜索结束*/
+/*美食视频开始*/
+.video {
+  width: 1000px;
+  margin-top: 10px;
+  height: 450px;
+  background-color: #f5ebeb;
+}
+
+.video h3 {
+  color: #817c74;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff5e52;
+}
+
+.video .media {
+  margin: auto;
+  display: block;
+}
+
+/*美食视频结束*/
+.slidebox {
+  width: 100%;
+  height: auto;
+}
+
+.skill-wrap {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.skill-wrap .center {
+  width: 1150px;
+  text-align: center;
+  margin-left: -105px;
+  /*padding-bottom: 55px;*/
+}
+
+.skill-wrap .center h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+}
+
+.skill-wrap .center .lead {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "微軟正黑體", "標楷體";
+  color: #4e4e4e;
+}
+
+.skill-wrap .center1 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.skill-wrap .row {
+  margin: 0 150px;
+}
+
+.skill-wrap .row .sinlge-skill {
+  background: #f2f2f2;
+  border-radius: 100%;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  height: 200px;
+  position: relative;
+  width: 200px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 30px 0;
+}
+
+.skill-wrap .row .joomla-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(28%, #f2f2f2), color-stop(28%, #2d7da4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* Chrome10+,Safari5.1+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#2d7da4', GradientType=0);
+  /* IE6-9 */
+}
+
+.skill-wrap .row .joomla-skill:hover {
+  background: url(../../upload/陕西菜/1.jpg);
+  background-size: cover;
+}
+
+.skill-wrap .row .html-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(9%, #f2f2f2), color-stop(9%, #6aa42f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* Chrome10+,Safari5.1+ */
+}
+
+.skill-wrap .row .html-skill:hover {
+  background: url(_PUBLIC__/home/other/imagesupload/面食/1.jpg);
+  background-size: cover;
+}
+
+.skill-wrap .row .css-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(32%, #f2f2f2), color-stop(32%, #ffbd20));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 0%, #ffbd20 0%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffbd20', GradientType=0);
+  /* IE6-9 */
+}
+
+.skill-wrap .row .css-skill:hover {
+  background: url(_PUBLIC__/home/other/images/upload/小吃/1.jpg);
+  background-size: cover;
+}
+
+.skill-wrap .row .wp-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(19%, #f2f2f2), color-stop(19%, #db3615));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 0%, #db3615 0%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#db3615', GradientType=0);
+  /* IE6-9 */
+}
+
+.skill-wrap .row .wp-skill:hover {
+  background: url(_PUBLIC__/home/other/imagesupload/特产/1.jpeg);
+  background-size: cover;
+}
+
+.skill-wrap .row .skill-wrap {
+  display: block;
+  overflow: hidden;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.skill-wrap .row .joomla-skill,
+.skill-wrap .row .html-skill,
+.skill-wrap .row .css-skill,
+.skill-wrap .row .wp-skill {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+  border-radius: 100%;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.skill-wrap .row .joomla-skill p,
+.skill-wrap .row .html-skill p,
+.skill-wrap .row .css-skill p,
+.skill-wrap .row .wp-skill p {
+  color: #FFFFFF;
+  margin: 0px;
+  font-family: "微軟正黑體", "標楷體";
+}
+
+/*今日推荐*/
+/*本周推荐*/
+#about-us{
+  width: 1000px;
+  height: 800px;
+  position: relative;
+}
+#gallery {
+  position: absolute;
+  width: 1100px;
+  padding: 10px;
+  margin-left: -75px;
+  text-align: center;
+}
+
+#gallery div {
+  position: relative;
+}
+
+#gallery p {
+  font-size: 20px;
+  width: 300px;
+  font-family: "楷体";
+  margin: 0;
+  background: #666;
+  transition: opacity 0.5s;
+  opacity: 0.6;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+#gallery p:hover {
+  opacity: 1;
+}
+
+#gallery ul {
+  list-style: none;
+}
+
+#gallery ul li {
+  display: inline;
+}
+
+#gallery ul li a img {
+  margin-right: 30px;
+  width: 300px;
+  height: 200px;
+}
+
+#gallery a:hover {
+  color: #fff;
+}
+
+/* 尾部 */
+.footer {
+  width: 1348px !important;
+  background: #e54c2a !important;
+}
+
+.footer .row {
+  margin-top: 20px;
+}
+
+.footer .single-footer.instagram ul li {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.footer .single-footer.instagram ul li img {
+  width: 100%;
+}
+
+.footer .single-footer.instagram ul li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .single-footer.instagram ul li a:hover:before {
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.footer .single-footer.instagram ul li a:before {
+  background: rgba(229, 76, 42, 0.8) none repeat scroll 0 0;
+  content: "";
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  color: #fff;
+  left: -100%;
+  top: -100%;
+}
+
+.footer .copyright p {
+  margin: 0;
+}
+
+.footer .single-footer p.phon {
+  margin-bottom: 0;
+}
+
+.footer h3 .offer-inner .order-now>a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 15px 38px;
+  text-transform: uppercase;
+}
+
+.footer h3 .offer-inner .order-now>a a:hover {
+  background: #535353;
+  color: #fff;
+}
+
+.footer .single-footer .open-list li {
+  color: #535353;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.footer .single-footer .open-list li span {
+  font-weight: bold;
+}
+
+.footer .single-footer .open-list li .copyright {
+  background: none repeat scroll 0 0 #e54c2a;
+}
+
+.footer .single-footer .open-list li .copyright p {
+  color: #fff;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.footer .single-footer .open-list li .copyright p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer .single-footer .open-list li .copyright p a:hover {
+  text-decoration: underline;
+}
+
+.footer .single-footer .single-footer-title {
+  color: #535353;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .single-footer .single-footer-details ul {
+  display: block;
+  padding-top: 10px;
+}
+
+.footer .single-footer .newsletter-form input {
+  background: none repeat scroll 0 0 #fff;
+  border: medium none;
+  color: #999999;
+  font-weight: 600;
+  height: 30px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.footer .single-footer button {
+  background: none repeat scroll 0 0 #999;
+  border: medium none;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 14px 38px;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+
+.footer .single-footer button:hover {
+  background: #535353;
+}
+
+/* 轮播图 */
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.lunbo {
+  position: relative;
+  margin-bottom: 210px;
+}
+
+.lunbo .juzhong {
+  width: 1100px;
+  height: 580px;
+  /* background: pink; */
+  margin: auto;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.trent-slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.t-slide {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  transition: .65s;
+}
+
+.t-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.t-slider-controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.t-slider-controls .arrow {
+  min-height: 100%;
+  width: 50px;
+  position: relative;
+  transition: .25s;
+}
+
+.t-slider-controls .arrow:hover {
+  cursor: pointer;
+}
+
+.t-slider-controls .right-arrow {
+  float: right;
+}
+
+.t-slider-controls .left-arrow {
+  float: left;
+}
+
+.t-slider-controls .arrow .arrow-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.t-slider-controls .arrow .arrow-container .arrow-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  color: #fafafa;
+  border-radius: 50%;
+}
+
+.t-slider-controls .arrow .arrow-container .arrow-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.t-slider-controls .t-load-bar {
+  width: 2500%;
+  height: 5px;
+}
+
+.t-slider-controls .t-load-bar .inner-load-bar {
+  background: rgba(200, 200, 200, 0.65);
+  height: 100%;
+}
+
+.t-slider-controls .t-dots-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20px;
+  min-width: 350px;
+}
+
+.t-slider-controls .t-slide-dots-wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.t-slider-controls .t-slide-dots {
+  position: absolute;
+  top: 50%;
+  left: 175%;
+  transform: translate(-50%, -50%);
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.t-slider-controls .t-slide-dots .t-dot {
+  background: #fafafa;
+  width: 8px;
+  height: 8px;
+  margin: 5px;
+  float: left;
+  border-radius: 50%;
+  transition: .65s;
+}
+
+.t-slider-controls .t-slide-dots .t-dot.current-dot,
+.t-slider-controls .t-slide-dots .t-dot:hover {
+  transform: scale(1.65);
+  cursor: pointer;
+}
+/* 公共样式 */
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ���� */
+/* .conner {
+  width: 1000px;
+  margin: 0 auto;
+} */
+.ic{
+  margin-top: -5% !important
+}
+.content.page1{
+  padding-top: 0px !important;
+}
+.lineheart {
+  width: 940px;
+margin-top: 580px;
+text-align: center;
+margin-left: 50%;
+transform: translateX(-50%)
+}
+.grid_12{
+  width: 1050px !important;
+
+}

@@ -1,0 +1,188 @@
+/**/
+@import "../css/reset.css";
+@import "../css/grid.css";
+@import "../css/superfish.css";
+
+
+
+
+a:hover {
+	color: #699440;
+}
+
+a.btn {
+	font-size: 12px;
+	display: inline-block;
+	background: #e2827e;
+	padding: 5px 14px 4px;
+	border-radius: 4px;
+	margin-top: 17px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+a.btn:hover {
+	background: #699440;
+}
+
+a.btn.m1 {
+	margin-top: 30px;
+	margin-bottom: 1px;
+}
+
+/*preclass*/
+
+.mb0 {
+	margin-bottom: 0px !important;
+}
+
+.m0 {
+	margin: 0 !important;
+}
+
+.ind1 {
+	margin-top: 11px;
+}
+
+.pad0 {
+	padding: 0 !important;
+}
+
+.pt0 {
+	padding-top: 0;
+}
+
+.img_inner {
+	max-width: 100%;
+	padding: 7px;
+	background: #fff;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #e6e4e4;
+	margin-bottom: 19px;
+	box-shadow: 2px 2px 4px #ddd;
+}
+
+.fleft {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+.fright {
+	float: right !important;
+}
+
+.upp {
+	text-transform: uppercase;
+}
+
+.alright {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.wrapper,
+.extra_wrapper {
+	overflow: hidden;
+}
+
+.clear {
+	float: none !important;
+	clear: both;
+}
+
+.col1 {
+	color: #464646;
+}
+
+.col2 {
+	color: #e1837f;
+}
+
+/*.hor_separator {
+	background: url(../images/hor_separator.png) 0 bottom no-repeat;
+	height: 40px;
+}*/
+/*header*/
+
+header {
+	display: block;
+	padding-top: 16px;
+	position: relative;
+	z-index: 999;
+	background: #f2f0f0;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #dddbdb;
+	box-shadow: 0 1px 5px #ccc;
+}
+
+
+header h1 {
+	float: none;
+	position: relative;
+	z-index: 999;
+
+}
+
+header h1 a {
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 240px;
+	float: left;
+	height: 108px;
+	text-indent: -999px;
+	transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+}
+
+header h1 a img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+footer {
+	display: block;
+	padding: 45px 0;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* 轮播图样式修改 */
+.slider-block {
+	position: relative;
+	left:80%;
+	transform: translateX(-50%);
+	width: 1600px;
+	height: 800px;
+}
+
+.slider-block .items ul li {
+	width: 1785px
+}
+
+.slider-block .items ul li img {
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+}
+
+/* 小圆点 */
+.pagination {
+	margin-left: -250px !important;
+}

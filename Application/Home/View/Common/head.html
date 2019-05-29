@@ -1,0 +1,34 @@
+ <header> 
+  <div class="container_12">
+    <div class="grid_12">
+    <h1><a href="index.html"><img src="__PUBLIC__/home/other/images/SHAN1.png" alt="EXTERIOR"></a> </h1>
+    
+         <div class="menu_block">
+           <nav  class="" >
+            <ul class="sf-menu">
+                   <li class="current"><a href="{:U('index/index_one')}">首页</a></li>
+                   <li class=""><a href="{:U('index/index4')}">美食故事</a></li>
+                   <li class="with_ul"><a href="javascript:;">地方系列</a><ul>
+                            <li><a href="{:U('index/index5?cateid=99')}">陕菜系列</a></li>
+                            <li><a href="{:U('index/index5?cateid=112')}">面食系列</a></li>
+                            <li><a href="{:U('index/index5?cateid=113')}">特产系列</a></li>
+                            <li><a href="{:U('index/index5?cateid=111')}">小吃系列</a></li>
+                     </ul></li>
+                   <li><a href="{:U('index/index_lst')}">家乡地图</a></li>
+                   <li><a href="{:U('index/about')}">关于我们</a></li>
+                   <li> 
+                      <form  method="get" action="{:U('index/index5')}" id="searchform" class="searchform">
+                        <div class="search-box">
+                            <input class="search_input" id="search_input" type="text" name="keywords" placeholder="请输入搜索内容菜名">
+                            <input type="submit" value="搜索" id="search_button" class="search_button">
+                        </div>
+                     </form>
+                </li>
+                 </ul>
+              </nav>
+           <div class="clear"></div>
+           </div>
+           <div class="clear"></div>
+      </div>
+    </div>
+</header>

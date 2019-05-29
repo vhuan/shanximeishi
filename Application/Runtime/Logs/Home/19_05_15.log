@@ -1,0 +1,588 @@
+[ 2019-05-15T09:34:58+08:00 ] ::1 /carshop1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.120002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0575s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0375s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0550s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0400s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.027500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015000s ]
+
+[ 2019-05-15T09:35:03+08:00 ] ::1 /carshop1/index.php/Home/index/index_one.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 6   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cs_article` WHERE ( rem=1 ) ORDER BY id desc LIMIT 8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.261015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:31:47+08:00 ] ::1 /carshop1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0125s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2019-05-15T14:31:48+08:00 ] ::1 /carshop1/index.php/Home/index/index_one.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0090s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( rem=1 ) ORDER BY id desc LIMIT 8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:32:03+08:00 ] ::1 /carshop1/index.php/Home/index/index5.html?keywords=%E7%83%A9%E4%B8%89%E9%B2%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cs_article` WHERE `title` LIKE '烩三鲜' ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:32:05+08:00 ] ::1 /carshop1/index.php/Home/index/detail/id/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0075s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-15T14:32:06+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-15T14:35:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-15T14:35:40+08:00 ] 127.0.0.1 /index.php/Home/index/index_one.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0090s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 6   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cs_article` WHERE ( rem=1 ) ORDER BY id desc LIMIT 8   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2019-05-15T14:39:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:39:18+08:00 ] 127.0.0.1 /index.php/Home/index/index_one.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0075s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 6   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( rem=1 ) ORDER BY id desc LIMIT 8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+NOTIC: [8] Undefined index:  id C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\ab40cfcc6d67e7114583083e85ad28d5.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:39:23+08:00 ] 127.0.0.1 /index.php/Home/index/index4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cs_article` ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-15T14:39:24+08:00 ] 127.0.0.1 /index.php/Home/index/detail/id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0075s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:39:25+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-15T14:40:10+08:00 ] 127.0.0.1 /index.php/Home/index/detail/id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T14:40:11+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0200s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.062501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.062501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.070002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.075002s ]
+
+[ 2019-05-15T14:49:51+08:00 ] ::1 /carshop1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0120s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-05-15T14:52:00+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0150s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T20:49:50+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0075s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T20:50:08+08:00 ] ::1 /carshop1/index.php/Home/index/pinglun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pres C:\phpStudy\PHPTutorial\WWW\carshop1\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0125s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-05-15T20:50:23+08:00 ] ::1 /carshop1/index.php/Home/img/timg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
